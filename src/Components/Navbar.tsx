@@ -6,7 +6,7 @@ const NavBar = () => {
     const handleClick = () => setNavbar(!navbar)
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-white'>
             {/* regular list */}
                 <ul className='hidden md:flex'>
                     <li>Home</li>
@@ -20,7 +20,7 @@ const NavBar = () => {
                 {!navbar ? <FaBars/> : <FaTimes/>}
             </div>
             {/* mobile list */}
-            <ul className={!navbar ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+            <ul className={!navbar ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#7393B3] flex flex-col justify-center items-center'}>
                 <li className='py-6 text-4xl'>Home</li>
                 <li className='py-6 text-4xl'>About Me</li>
                 <li className='py-6 text-4xl'>Resume</li>
