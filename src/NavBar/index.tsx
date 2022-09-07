@@ -3,7 +3,20 @@ import React from 'react';
 const NavBar = () => {
     return (
         <div>
-            <h1>Hello again</h1>
+            <ul>
+                <li>
+                    <a>Home</a>
+                </li>
+                <li>
+                    <a>About Me</a>
+                </li>
+                <li>
+                    <a>Resume</a>
+                </li>
+                <li>
+                    <a>Projects</a>
+                </li>
+            </ul>
            
 
         </div>

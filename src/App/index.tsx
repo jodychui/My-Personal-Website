@@ -3,7 +3,7 @@ import NavBar from '../NavBar';
 
 function App() {
   return (
-    <div className="App">
+    <div>
         <NavBar></NavBar>
 
         <p className="text-red-500">
