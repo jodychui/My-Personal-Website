@@ -9,12 +9,12 @@ const Hero = () => {
   return (
     <>
           {/* body */}
-          <div id='hero' className='w-full h-screen bg-[#D1CAC1]'>
+          <div id='hero' className='w-full h-screen bg-[#94A4B4]'>
             {/* <img src={HeroBackground} alt='backgroundPicture'></img> */}
               <div className='mx-auto pb-40 flex flex-col justify-center h-full text-center'>
                   <p className='text-black mt-52'>Hi there, thanks for visiting my website!</p>
                   <h1 className='text-6xl sm:text-8xl font-bold text-neutral-100 my-6'>Jody Chui</h1>
-                  <h2 className='text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-slate-400 mt-80'>
+                  <h2 className='text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-teal-400 mt-80'>
                       Student at Santa Clara University | Software Engineer | Entrepreneur
                   </h2>
                   {/* <p className='text-black mt-10'>Background picture: Lake Como, Italy by Jody Chui</p> */}
