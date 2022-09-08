@@ -4,18 +4,18 @@ import ProfilePic from "../Images/HeadshotMaskGroup.png"
 const AboutMe = () => {
   return (
     <div id='AboutMe' className='w-full h-screen bg-[#D1CAC1] text-indigo-900'>
-        <div className='pt-8 md:pt-16 mx-auto flex-col text-center '>
-            <h1 className='text-5xl text-center font-bold inline border-b-4 border-pink-600 lg:text-5xl 2xl:text-7xl '>About Me</h1>
+        <div className='pt-8 md:pt-16 mx-auto flex-col text-center'>
+            <h1 className='text-5xl text-center font-bold inline border-b-4 border-pink-600 2xl:text-7xl'>About Me</h1>
         </div>
         {/* both sections */}
         <div className='text-center'>
-            {/* Let Me Introduce Myself */}
+            {/* let me introduce myself section */}
             <h2 className='text-2xl my-8 text-indigo-700 font-semibold 2xl:text-3xl'>Let Me Introduce Myself</h2>
             <div className='flex flex-col justify-center items-center'>
                 <img src={ProfilePic} alt='ProfilePicture' 
                     className='rounded-full w-72 h-72 items-center'>
                 </img>
-                <p className='justify-center items-center mx-6 text-lg max-w-[1350px] md:text-xl lg:text-2xl text-indigo-900 '>
+                <p className='justify-center items-center mx-6 text-lg max-w-[1350px] md:text-xl lg:text-2xl text-indigo-900'>
                 Hi, I’m Jodi. I am pursuing a B.S. in Computer Science and minoring in Entrepreneurship and 
                 Mathematics. At the moment, I am a software engineer intern at a crypto startup called Drem, 
                 where I mainly work on coding the front end. Although I currently have a job, I am open to a 
