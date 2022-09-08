@@ -10,7 +10,7 @@ const AboutMe = () => {
         {/* both sections */}
         <div className='text-center'>
             {/* Let Me Introduce Myself */}
-            <h2 className='text-2xl my-8 text-indigo-900 font-semibold 2xl:text-3xl'>Let Me Introduce Myself</h2>
+            <h2 className='text-2xl my-8 text-indigo-700 font-semibold 2xl:text-3xl'>Let Me Introduce Myself</h2>
             <div className='flex flex-col justify-center items-center'>
                 <img src={ProfilePic} alt='ProfilePicture' 
                     className='rounded-full w-72 h-72 items-center'>
@@ -26,7 +26,7 @@ const AboutMe = () => {
                 </p>
             </div>
             {/* skills section */}
-            <h2 className='text-2xl my-6 text-indigo-900 font-semibold 2xl:text-3xl'>Skills</h2>
+            <h2 className='text-2xl my-6 text-indigo-700 font-semibold 2xl:text-3xl'>Skills</h2>
             <div className='justify-center flex items-center text-indigo-900'>
                 <div className='mx-1 md:mx-2 text-lg font-base border-solid border-[#A36A00] border-2 rounded-lg lg:mx-5 p-2 2xl:text-xl'>
                     <p>C++</p>
