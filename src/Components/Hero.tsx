@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <>
           {/* body */}
-          <div id='hero' className='w-full h-screen bg-[#94A4B4]'>
+          <div id='Hero' className='w-full h-screen bg-[#94A4B4]'>
             {/* <img src={HeroBackground} alt='backgroundPicture'></img> */}
               <div className='mx-auto pb-40 flex flex-col justify-center h-full text-center'>
                   <p className='text-black mt-52'>Hi there, thanks for visiting my website!</p>
