@@ -7,7 +7,7 @@ import GWCLogo from "../Images/GWCLogo.png"
 
 const Resume = () => {
   return (
-    <div id='resume' className='w-full pb-16 bg-[#FFFFF0]'>
+    <div id='Resume' className='w-full pb-16 bg-[#FFFFF0]'>
         {/* title */}
         <div className='pt-8 md:pt-16 mx-auto flex-col text-center'>
             <h1 className='text-5xl text-center font-bold inline border-b-4 border-pink-600 2xl:text-7xl'>Resume</h1>
