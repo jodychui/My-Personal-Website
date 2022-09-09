@@ -116,7 +116,7 @@ const Resume = () => {
 
                                 </div>
                                 {/* Drem logo that shows up for small/mobile */}
-                                <img src={DremLogo} alt='Drem Logo' className='ml-40 rounded-full w-20 h-20 block sm:ml-64 md:hidden'></img>
+                                <img src={DremLogo} alt='Drem Logo' className='ml-36 rounded-full w-20 h-20 block sm:ml-64 md:hidden'></img>
                             </div>
                             
                             
@@ -152,7 +152,7 @@ const Resume = () => {
                                     <h3 className='text-[#374151] text-lg font-medium ml-4 block md:ml-8 md:text-xl md:hidden lg:text-xl 2xl:text-2xl'>September 2021 - current</h3>
                                 </div>
                                 {/* SCU logo that shows up for small/mobile */}
-                                <img src={SCULogo} alt='SCU Logo' className='ml-32 rounded-full w-20 h-20 block sm:ml-56 md:hidden'></img>
+                                <img src={SCULogo} alt='SCU Logo' className='ml-32 rounded-full w-20 h-20 block sm:ml-60 md:hidden'></img>
                             </div>
                         </div>
                         {/* hardcode to make text further from experience/education above */}
@@ -186,7 +186,7 @@ const Resume = () => {
 
                                 </div>
                                 {/* GWC logo that shows up for small/mobile */}
-                                <img src={GWCLogo} alt='GWC Logo' className='ml-32 rounded-full w-20 h-20 block sm:ml-56 md:hidden'></img>
+                                <img src={GWCLogo} alt='GWC Logo' className='ml-20 rounded-full w-20 h-20 block sm:ml-48 md:hidden'></img>
                             </div>
                         </div>
                         {/* hardcode to make text further from experience/education above */}
