@@ -6,7 +6,7 @@ const NavBar = () => {
     const handleClick = () => setNavbar(!navbar)
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-white'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-black'>
             {/* regular list */}
                 <ul className='hidden md:flex'>
                     <li>Home</li>
