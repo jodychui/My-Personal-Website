@@ -32,7 +32,7 @@ const Projects = () => {
                             <p className='text-red-500 text-base md:text-lg 2xl:text-xl'>Won second place with this project at H4H 2022.</p>
                         </div>
                         <img src={ProjectPineapple} alt='Project Pineapple Img' 
-                            className=' border-4 border-teal-600 rounded-lg mx-auto mt-4 sm:mt-3 md:-mt-4 md:scale-[75%] lg:-mt-14 xl:-mt-18 2xl:-mt-14'>
+                            className=' border-4 border-teal-600 rounded-lg mx-auto mt-4 sm:mt-3 md:-mt-4 md:scale-[80%] lg:scale-[65%] lg:-mt-14 xl:-mt-18 xl:scale-[75%] 2xl:-mt-14 2xl:scale-[70%]'>
                         </img>
                         
                         
