@@ -3,7 +3,7 @@ import ProfilePic from "../Images/HeadshotMaskGroup.png"
 
 const AboutMe = () => {
   return (
-    <div id='AboutMe' className='w-full h-screen bg-[#D1CAC1] text-indigo-900'>
+    <div id='AboutMe' className='w-full pb-16 bg-[#D1CAC1] text-indigo-900'>
         <div className='pt-8 md:pt-16 mx-auto flex-col text-center'>
             <h1 className='text-5xl text-center font-bold inline border-b-4 border-pink-600 2xl:text-7xl'>About Me</h1>
         </div>
