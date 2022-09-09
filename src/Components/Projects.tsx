@@ -34,8 +34,6 @@ const Projects = () => {
                         <img src={ProjectPineapple} alt='Project Pineapple Img' 
                             className=' border-4 border-teal-600 rounded-lg mx-auto mt-4 sm:mt-3 md:-mt-4 md:scale-[80%] lg:scale-[65%] lg:-mt-14 xl:-mt-18 xl:scale-[75%] 2xl:-mt-14 2xl:scale-[70%]'>
                         </img>
-                        
-                        
                     </Modal>)}
 
 
@@ -51,13 +49,23 @@ const Projects = () => {
                         <span className='text-2xl font-bold text-black tracking-wider'>
                             My Project Name
                         </span>
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button>Demo</button>
-                            </a>
-                            <a href="/">
-                                <button>Code</button>
-                            </a>
+                        <div className='pt-8'>
+                            {/* project will open in modal: */}
+
+                            <button className="border-black border" onClick={() => setIsOpen(true)}>Show me more!</button>
+                            {isOpen && (<Modal setIsOpen={() => setIsOpen(false)}>
+                                <div className='text-left mx-8 md:mx-10'>
+                                    <h2 className='text-black text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>Project Pineapple</h2>
+                                    <p className='text-black mt-3 text-lg md:text-xl 2xl:text-2xl'>Developed an IOS app that gives individuals the option of added security when going out 
+                                    for the night by scheduling check-ins at certain times to survey the wellbeing of the user. If the 
+                                    password is not submitted by the scheduled time, an alert will be sent to those that the user labeled 
+                                    'contacts.'</p>
+                                    <p className='text-red-500 text-base md:text-lg 2xl:text-xl'>Won second place with this project at H4H 2022.</p>
+                                </div>
+                                <img src={ProjectPineapple} alt='Project Pineapple Img' 
+                                    className=' border-4 border-teal-600 rounded-lg mx-auto mt-4 sm:mt-3 md:-mt-4 md:scale-[80%] lg:scale-[65%] lg:-mt-14 xl:-mt-18 xl:scale-[75%] 2xl:-mt-14 2xl:scale-[70%]'>
+                                </img>
+                            </Modal>)}
                         </div>
                     </div>
                 </div>
