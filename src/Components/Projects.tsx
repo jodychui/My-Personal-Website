@@ -11,8 +11,8 @@ const Projects = () => {
     const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div id='Projects' className='w-full md:h-screen text-blue-700'>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div id='Projects' className='w-full md:pb-16 text-blue-700'>
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col w-full h-full'>
             {/* title */}
             <div className='pt-8 md:pt-16 mx-auto flex-col text-center'>
                 <h1 className='text-5xl text-center font-bold inline border-b-4 border-pink-600 2xl:text-7xl'>Projects</h1>
@@ -22,7 +22,21 @@ const Projects = () => {
 
             {/* testing modal */}
             <button className="border-black border" onClick={() => setIsOpen(true)}>Open Modal</button>
-            {isOpen && (<Modal setIsOpen={() => setIsOpen(false)}/>)}
+        {isOpen && (<Modal setIsOpen={() => setIsOpen(false)}>
+                        <div className='text-left mx-8 md:mx-10'>
+                            <h2 className='text-black text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>Project Pineapple</h2>
+                            <p className='text-black mt-3 text-lg md:text-xl 2xl:text-2xl'>Developed an IOS app that gives individuals the option of added security when going out 
+                            for the night by scheduling check-ins at certain times to survey the wellbeing of the user. If the 
+                            password is not submitted by the scheduled time, an alert will be sent to those that the user labeled 
+                            'contacts.'</p>
+                            <p className='text-red-500 text-base md:text-lg 2xl:text-xl'>Won second place with this project at H4H 2022.</p>
+                        </div>
+                        <img src={ProjectPineapple} alt='Project Pineapple Img' 
+                            className=' border-4 border-teal-600 rounded-lg mx-auto mt-4 sm:mt-3 md:-mt-4 md:scale-[75%] lg:-mt-14 xl:-mt-18 2xl:-mt-14'>
+                        </img>
+                        
+                        
+                    </Modal>)}
 
 
 
