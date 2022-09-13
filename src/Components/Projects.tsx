@@ -34,10 +34,9 @@ const Projects = () => {
                     bg-contain bg-no-repeat object-contain tracking-wider" 
                         onClick={() => setIsOpen(1)} 
                         style={{backgroundImage: `url(${ProjectPineappleLogo})`}}>
-                        Click for more info
                     </button>
                     
-                    {isOpen == 1 && (<Modal setIsOpen={() => setIsOpen(0)}>
+                    {isOpen === 1 && (<Modal setIsOpen={() => setIsOpen(0)}>
                     <div className='text-left mx-8 md:mx-10'>
                         <h2 className='text-black text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>Project Pineapple</h2>
                         <p className='text-black mt-3 text-lg md:text-xl 2xl:text-2xl'>Developed an IOS app that gives individuals the option of added security when going out 
@@ -63,7 +62,7 @@ const Projects = () => {
                         Click for more info
                     </button>
                     
-                    {isOpen == 2 && (<Modal setIsOpen={() => setIsOpen(0)}>
+                    {isOpen === 2 && (<Modal setIsOpen={() => setIsOpen(0)}>
                     <div className='text-left mx-8 md:mx-10'>
                         <h2 className='text-black text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>Personal Website</h2>
                         <p className='text-black mt-3 text-lg md:text-xl 2xl:text-2xl'>Created own personal website to display 
@@ -87,7 +86,7 @@ const Projects = () => {
                         Click for more info
                     </button>
                     
-                    {isOpen == 3 && (<Modal setIsOpen={() => setIsOpen(0)}>
+                    {isOpen === 3 && (<Modal setIsOpen={() => setIsOpen(0)}>
                     <div className='text-left mx-8 md:mx-10'>
                         <h2 className='text-black text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>Financial Literacy Game</h2>
                         <p className='text-black mt-3 text-lg md:text-xl 2xl:text-2xl'>Constructed an educational game aimed to teach 
@@ -114,7 +113,6 @@ const Projects = () => {
                 project 1
                 {/* card container (content-div is custom) */}
                 <div style={{backgroundImage: `url(${ProjectPineapple})`}} className='shadow-lg shadow-[#7493b8] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    hover effects
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-black tracking-wider'>
                             My Project Name
@@ -122,7 +120,7 @@ const Projects = () => {
                         <div className='pt-8'>
                             project will open in modal:
                             <button className="border-black border" onClick={() => setIsOpen(4)}>Show me more!</button>
-                            {isOpen == 4 && (<Modal setIsOpen={() => setIsOpen(0)}>
+                            {isOpen === 4 && (<Modal setIsOpen={() => setIsOpen(0)}>
                                 <div className='text-left mx-8 md:mx-10'>
                                     <h2 className='text-black text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>Project Pineapple</h2>
                                     <p className='text-black mt-3 text-lg md:text-xl 2xl:text-2xl'>Developed an IOS app that gives individuals the option of added security when going out 
@@ -142,7 +140,6 @@ const Projects = () => {
                 {/* project 2 */}
                 {/* card container (content-div is custom)*/}
                 <div style={{backgroundImage: `url(${ProjectPineapple})`}} className='shadow-lg shadow-[#7493b8] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    hover effects
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-black tracking-wider'>
                             My Project Name
@@ -150,7 +147,7 @@ const Projects = () => {
                         <div className='pt-8'>
                             {/* project will open in modal: */}
                             <button className="border-black border" onClick={() => setIsOpen(5)}>Show me more!</button>
-                            {isOpen == 5 && (<Modal setIsOpen={() => setIsOpen(0)}>
+                            {isOpen === 5 && (<Modal setIsOpen={() => setIsOpen(0)}>
                                 <div className='text-left mx-8 md:mx-10'>
                                     <h2 className='text-black text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>Personal Website</h2>
                                     <p className='text-black mt-3 text-lg md:text-xl 2xl:text-2xl'>Created own personal website to display 
