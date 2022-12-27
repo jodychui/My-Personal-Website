@@ -32,7 +32,7 @@ const Contact = () => {
             </div>
 
             {/* black bar on the bottom */}
-           <div className='border-solid border-2 border-black bg-black text-right inset-x-0 bottom-0 p-2'>
+           <div className='border-solid border-2 border-black bg-black text-right mt-44 p-3'>
                <p className='mr-5 text-white text-3xl font-thin'>@ 2022, Designed by Jody Chui.</p>
            </div>
 
