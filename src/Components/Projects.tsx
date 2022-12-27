@@ -8,7 +8,7 @@ import Modal from './Modal'
 const Projects = () => {
   const [isOpen, setIsOpen] = useState(0);
 return (
-  <div id='Projects' className='bg-gray-50 w-full pb-10 sm:pb-12 md:pb-16 text-blue-700'>
+  <div id='Projects' className='bg-gray-50 w-full pb-9 sm:h-screen text-blue-700'>
       <div className='max-w-[1000px] mx-auto flex-col w-full h-full'>
           {/* title */}
           <div className='pt-8 md:pt-16 mx-auto flex-col text-center'>
