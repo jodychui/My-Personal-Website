@@ -17,16 +17,20 @@ const Contact = () => {
             </div>
 
             {/* icons */}
-            <div className='-mt-40 flex place-content-center gap-x-80 grid md:grid-cols-2 md:scale-[80%] md:-mt-10 lg:scale-[100%] m-2'>
+            <div className='-mt-40 flex place-content-center gap-x-80 grid md:grid-cols-2 scale-[78%] md:scale-[80%] md:-mt-10 lg:scale-[100%] m-2 lg:px-40'>
                 {/* mail icon */}
                 <div className=''>
-                    <GoMail size={300}/>
+                    <div className= 'flex justify-center'>
+                        <GoMail size={300}/>
+                    </div>
                     <h3 className='text-center text-2xl'>Email Me At:</h3>
                     <h3 className='text-center text-2xl'>jodychui7@gmail.com</h3>
                 </div>
                 {/* linkedin icon */}
                 <div>
-                    <AiOutlineLinkedin size={300}/>
+                    <div className= 'flex justify-center'>
+                        <AiOutlineLinkedin size={300}/>
+                    </div>
                     <h3 className='text-center text-2xl'>Lets Connect!</h3>
                 </div>
             </div>
