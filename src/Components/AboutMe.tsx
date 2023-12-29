@@ -1,6 +1,5 @@
 import React from 'react'
 import ProfilePic from "../Images/HeadshotMaskGroup.png"
-
 const AboutMe = () => {
   return (
     <div id='AboutMe' className='w-full h-screen pb-16 bg-[#D1CAC1] text-indigo-900'>
