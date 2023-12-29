@@ -3,8 +3,6 @@ import {FaBars,FaTimes} from 'react-icons/fa'
 import Backdrop from '@mui/material/Backdrop';
 // import Backdrop from '@material-ui/core/Backdrop';
 
-// import Backdrop from "@material-ui/core/Backdrop";
-
 export type ModalProperties = {
     setIsOpen: () => any,
     children?: JSX.Element | JSX.Element[]

@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import ProjectPineapple from "../Images/SC Project Pineapple.png"
 import ProjectPineappleLogo from "../Images/ProjectPineappleLogo.jpeg"
 import ProjectAboutMe from "../Images/8:14:22:aboutmesc.png"
-import ProjectFinLit from "../Images/SC FinLit Game.png"
-import ProjectSmartWalk from "../Images/SC SmartWalk.png"
+import ProjectFinLit from "../Images/SCFinLitGame.png"
+import ProjectSmartWalk from "../Images/SCSmartWalk.png"
 import Modal from './Modal'
 const Projects = () => {
   const [isOpen, setIsOpen] = useState(0);

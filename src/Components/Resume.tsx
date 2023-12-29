@@ -4,6 +4,11 @@ import BHSLogo from "../Images/BHSLogo.png"
 import DremLogo from "../Images/DremLogo.png"
 import GWCLogo from "../Images/GWCLogo.png"
 
+import WDAYLogo from "../Images/WorkdayRoundLogo.png"
+
+
+
+
 
 const Resume = () => {
   return (
@@ -98,6 +103,43 @@ const Resume = () => {
 
         {/* Work Experience Section */}
             <h2 className='text-2xl mt-8 ml-4 text-orange-600 font-semibold md:my-8 2xl:text-3xl'>Work Experience</h2>
+            {/* Workday */}
+            <div>
+                <div className='text-black md:text-2xl'>
+                    {/* to display date of work*/}
+                    <div className='md:flex mx-auto justify-between'>
+                        <div className='ml-8 md:flex'>
+                            {/* Workday logo that shows up for large/computer */}
+                            <img src={WDAYLogo} alt='Workday Logo' className='rounded-full w-20 h-20 hidden md:block ml-0'></img>
+                            {/* to make the Workday (add later) logo move from right to left as screen enlarges */}
+                            <div className='flex'>
+                                <div>
+                                    {/* hardcode to make it look pretty at bp md so education is closer to Drem */}
+                                    <h3 className='font-medium text-2xl md:ml-4 md:text-3xl xl:text-4xl'>Workday</h3>
+                                    <h3 className='text-[#374151] text-lg font-medium ml-4 md:ml-8 md:text-xl lg:text-xl 2xl:text-2xl'>Accessibility QA Engineer Intern</h3>
+                                    <h3 className='text-[#374151] text-lg font-medium ml-4 block md:ml-8 md:text-xl md:hidden lg:text-xl 2xl:text-2xl'>June 2023 - September 2023</h3>
+
+                                </div>
+                                {/* Workday (add later) logo that shows up for small/mobile */}
+                                <img src={WDAYLogo} alt='Drem Logo' className='ml-36 rounded-full w-20 h-20 block sm:ml-52 md:hidden'></img>
+                            </div>
+                            
+                            
+                        </div>
+                        <h3 className='text-[#374151] ml-12 text-lg font-medium hidden md:mr-4 md:block lg:text-xl lg:mr-14 2xl:text-2xl'>June 2023 - September 2023</h3>
+                    </div>
+                </div>
+                {/* hardcode to make bullet points closer to text above with (md:-mt-2) */}
+                <ul className='text-black text-lg list-disc list-outside ml-20 md:ml-48 md:text-xl md:-mt-2 mr-5 xl:text-xl 2xl:text-2xl'>
+                    <li>Actively performed functional, integration, regression, and keyboard testing on Workday's Organization Chart to meet WCAG accessibility guidelines</li>
+                    <li>Ran automation tests with Artifactory, Webdriver.io, Cypress, Docker, and Git</li>
+                    <li>Utilized CCA, Deque’s axe DevTools, and screen readers such as NVDA, JAWS, and VoiceOver for Manual QA testing</li>
+                    <li>Lead daily (agile) scrum meetings, as scrum master, by ensuring Jira tasks were being completed within the bi-weekly sprint timeframe</li>
+                    <li>Applied bamboo to generate patched SUVs using Diet Soda</li>
+                    {/* add more later once I start working :) */}
+                </ul>
+            </div>
+
             {/* Drem */}
             <div>
                 <div className='text-black md:text-2xl'>
@@ -133,6 +175,7 @@ const Resume = () => {
                     <li>Collaborated on creating Reusable components and an Info Card (user profile) component, then made it reactive to website size</li>
                 </ul>
             </div>
+
             {/* THD @ SCU */}
             <div>
                 <div className='text-black md:text-2xl'>
@@ -166,6 +209,7 @@ const Resume = () => {
                     <li>Identified, analyzed, and solved customer-related issues in person, over the phone, and in online chat</li>
                 </ul>
             </div>
+
             {/* GWC @ Lightspeed */}
             <div>
                 <div className='text-black md:text-2xl'>
