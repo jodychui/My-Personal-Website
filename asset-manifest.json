@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/My-Personal-Website/static/css/main.db23318c.css",
+    "main.js": "/My-Personal-Website/static/js/main.3851bc70.js",
+    "static/media/SCSmartWalk.png": "/My-Personal-Website/static/media/SCSmartWalk.af119e154f3af4e84b54.png",
+    "static/media/8:14:22:aboutmesc.png": "/My-Personal-Website/static/media/8:14:22:aboutmesc.19b1164a8512d75c3ae1.png",
+    "static/media/SABLogo.png": "/My-Personal-Website/static/media/SABLogo.b56bc5eabc95f0456f68.png",
+    "static/media/SC Project Pineapple.png": "/My-Personal-Website/static/media/SC Project Pineapple.209163858ad0e932333b.png",
+    "static/media/SCULogo.png": "/My-Personal-Website/static/media/SCULogo.dac315d4a6167bec890c.png",
+    "static/media/HeadshotMaskGroup.png": "/My-Personal-Website/static/media/HeadshotMaskGroup.a9a1fc128198bce8a8cb.png",
+    "static/media/WorkdayRoundLogo.png": "/My-Personal-Website/static/media/WorkdayRoundLogo.ba419b1d82902ca6193b.png",
+    "static/media/BHSLogo.png": "/My-Personal-Website/static/media/BHSLogo.b6fc9eb0001cac9b7875.png",
+    "static/media/SCFinLitGame.png": "/My-Personal-Website/static/media/SCFinLitGame.2af01207c8b40f263bcd.png",
+    "static/media/ProjectPineappleLogo.jpeg": "/My-Personal-Website/static/media/ProjectPineappleLogo.e42b2702b46ccb2a9965.jpeg",
+    "index.html": "/My-Personal-Website/index.html",
+    "main.db23318c.css.map": "/My-Personal-Website/static/css/main.db23318c.css.map",
+    "main.3851bc70.js.map": "/My-Personal-Website/static/js/main.3851bc70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db23318c.css",
+    "static/js/main.3851bc70.js"
+  ]
+}
