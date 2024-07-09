@@ -5,7 +5,7 @@ import DremLogo from "../Images/DremLogo.png"
 import GWCLogo from "../Images/GWCLogo.png"
 
 import WDAYLogo from "../Images/WorkdayRoundLogo.png"
-
+import SCUSABLogo from "../Images/SABLogo.png"
 
 
 
@@ -52,7 +52,7 @@ const Resume = () => {
                 </div>
                 {/* hardcode to make bullet points closer to text above with (md:-mt-0) */}
                 <ul className='text-black text-lg list-disc list-outside ml-20 md:ml-48 md:text-xl md:-mt-0 mr-5 xl:text-xl 2xl:text-2xl'>
-                    <li>Overall GPA: 3.7/4.0</li>
+                    <li>Overall GPA: 3.5/4.0</li>
                     <li>Achievements: SCU Bronco Scholarship & Heritage Fund Scholarship Recipient, Won 2nd place with a grand prize of $1200 
                         at H4H 2022
                     </li>
@@ -103,6 +103,41 @@ const Resume = () => {
 
         {/* Work Experience Section */}
             <h2 className='text-2xl mt-8 ml-4 text-orange-600 font-semibold md:my-8 2xl:text-3xl'>Work Experience</h2>
+            {/* SCU Ciocca Center */}
+            <div>
+                <div className='text-black md:text-2xl'>
+                    {/* to display date of work*/}
+                    <div className='md:flex mx-auto justify-between'>
+                        <div className='ml-8 md:flex'>
+                            {/* SCU Ciocca Center logo that shows up for large/computer */}
+                            <img src={SCUSABLogo} alt='Workday Logo' className='rounded-full w-20 h-20 hidden md:block ml-0'></img>
+                            {/* to make the Workday (add later) logo move from right to left as screen enlarges */}
+                            <div className='flex'>
+                                <div>
+                                    {/* hardcode to make it look pretty at bp md so education is closer to Drem */}
+                                    <h3 className='font-medium text-2xl md:ml-4 md:text-3xl xl:text-4xl'>Santa Clara University - Ciocca Center</h3>
+                                    <h3 className='text-[#374151] text-lg font-medium ml-4 md:ml-8 md:text-xl lg:text-xl 2xl:text-2xl'>Student Advisory Board Co-Chair</h3>
+                                    <h3 className='text-[#374151] text-lg font-medium ml-4 block md:ml-8 md:text-xl md:hidden lg:text-xl 2xl:text-2xl'>August 2023 - June 2024</h3>
+
+                                </div>
+                                {/* Workday (add later) logo that shows up for small/mobile */}
+                                <img src={SCUSABLogo} alt='Drem Logo' className='ml-36 rounded-full w-20 h-20 block sm:ml-52 md:hidden'></img>
+                            </div>
+                            
+                            
+                        </div>
+                        <h3 className='text-[#374151] ml-12 text-lg font-medium hidden md:mr-4 md:block lg:text-xl lg:mr-14 2xl:text-2xl'>August 2023 - June 2024</h3>
+                    </div>
+                </div>
+                {/* hardcode to make bullet points closer to text above with (md:-mt-2) */}
+                <ul className='text-black text-lg list-disc list-outside ml-20 md:ml-48 md:text-xl md:-mt-2 mr-5 xl:text-xl 2xl:text-2xl'>
+                    <li>Led weekly board meetings with a team of 18 members to promote interdisciplinary entrepreneurship</li>
+                    <li>Organized five campus-wide events within one school year, featuring 19 total guest speakers and reaching out to hundreds of outside speakers</li>
+                    <li>Executed the flagship event, Entreprelooza, with a budget of $5000, attracting over 300 students, entrepreneurs, and VCs</li>
+                    <li>Established board positions and committees to delegate tasks and align members with their interests</li>
+                </ul>
+            </div>
+
             {/* Workday */}
             <div>
                 <div className='text-black md:text-2xl'>

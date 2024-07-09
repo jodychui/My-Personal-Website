@@ -7,7 +7,8 @@ const NavBar = () => {
     const handleClick = () => setNavbar(!navbar)
 
     return (
-        <div className='bg-white fixed w-full h-[70px] flex items-center px-4 text-black'>
+        <div className='bg-white fixed w-full h-[70px] flex items-center px-4 text-black
+        '>
             {/* regular list */}
                 <ul className='hidden md:flex'>
                     <li><a href="#Hero">Home</a></li>
