@@ -12,10 +12,10 @@ const Hero = () => {
           <div id='Hero' className='w-full h-screen bg-[#7393B3]'>
             {/* <img src={HeroBackground} alt='backgroundPicture'></img> */}
               <div className='mx-auto pb-40 flex flex-col justify-center h-full text-center'>
-                  <p className='text-white mt-52'>Hi there, thanks for visiting my website!</p>
-                  <h1 className='text-6xl sm:text-8xl font-bold text-neutral-100 my-6'>Jody Chui</h1>
-                  <h2 className='text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-white mt-80'>
-                      Student at Santa Clara University | Software Engineer | Entrepreneur
+                  <p className='text-white mt-52 text-3xl'>Hi there, my name is</p>
+                  <h1 className='text-9xl sm:text-8xl font-bold text-neutral-100 my-6'>Jody Chui</h1>
+                  <h2 className='text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-white mt-60'>
+                    Software Engineer @ Workday
                   </h2>
                   {/* <p className='text-black mt-10'>Background picture: Lake Como, Italy by Jody Chui</p> */}
 
@@ -36,20 +36,26 @@ const Hero = () => {
                             <FaGithub size={30}/>
                         </a>
                     </li>
+                    
+                    
                     {/* Email */}
-                    <li className='w-[60px] h-[60px] mt-5 flex justify-between items-center bg-[#AFE1AF]'>
+                    
+                    {/* <li className='w-[60px] h-[60px] mt-5 flex justify-between items-center bg-[#AFE1AF]'>
                         <a className='flex justify-between items-center w-full'
                         href="/">
                             <HiOutlineMail size={30}/>
                         </a>
-                    </li>
+                    </li> */}
+
                     {/* Resume */}
-                    <li className='w-[60px] h-[60px] mt-5 flex justify-between items-center bg-[#E4D00A]'>
+
+                    {/* <li className='w-[60px] h-[60px] mt-5 flex justify-between items-center bg-[#E4D00A]'>
                         <a className='flex justify-between items-center w-full'
                         href="/">
                             <BsFillPersonLinesFill size={30}/>
                         </a>
-                    </li>
+                    </li> */}
+                    
                   </ul>
               </div>
               
